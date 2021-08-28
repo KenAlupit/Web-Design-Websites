@@ -1,0 +1,91 @@
+.Middleground {
+    background-color: #00364d;
+    height: 1000px;
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner{
+    background-color: #00364d;
+    margin: 20px;
+    padding:10px;
+}
+.banner-pic {
+    height: 50%;
+    margin-left:50px ;
+}
+.video{
+    height:50% ;
+    margin-right:50px ;
+    float: right ;
+}
+.Foreground {
+    background-color: #ffffff;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    height: 90%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+   background-color: #acd0d6;
+   color:#ffffff;
+   margin: 5px;
+   font-size: 40px ;
+   width: 80% ;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.title2  {
+    margin: 5px;
+    font-size: 20px ;
+    text-align: center;
+}
+.title3 {
+    background-color: #fd9d1b;
+    color:#ffffff;
+    width: 42% ;
+    height: 3%;
+    margin: 0px;
+    font-size: 20px ;
+}
+.title4 {
+    background-color: #68be4a;
+    color:#ffffff;
+    width: 90% ;
+    height: 3%;
+    margin: 0px;
+    font-size: 20px ;
+}
+.title5 {
+    background-color: #e83a31;
+    color:#ffffff;
+    width: 910px ;
+    height: 3%;
+    margin: 0px;
+    font-size: 20px ;
+}
+.covid-tracker {
+    width: 25%;
+    margin-right: 10px;
+    float: right;
+}
+.menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table{
+    float:left;
+
+}
