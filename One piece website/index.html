@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="../One piece website/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+      $(document).ready(function(){
+    var object1 = $('.luffy');
+    var object2 = $('.background');
+    var object3 = $('.luffyhand');
+
+    $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/55);
+                    var valueY = (event.pageY * -1/45);
+
+                    object1.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+    $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/65);
+                    var valueY = (event.pageY * -1/55);
+
+                    object2.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+    $(window).mousemove(function(event){
+                    var valueX = (event.pageX * -1/55);
+                    var valueY = (event.pageY * -1/45);
+
+                    object3.css({
+                        'transform':'translate3d('+ valueX+'px,'+valueY+'px,0)'
+                    });
+                });
+            });
+</script>
+</head>
+<body background="../One piece website/images/wallpapersden.com_one-piece-world-seeker_1920x1080(blur).jpg">
+    <img src="../One piece website/images/wallpapersden.com_one-piece-world-seeker_1920x1080.jpg" class="background" style="position: fixed; max-width: 100%; height: auto;">
+    <img src="../One piece website/images/wallpapersden.com_one-piece-world-seeker_1920x1080(luffy body).png" class="luffy" style="position: fixed; max-width: 100%; height: auto;">
+    <img src="../One piece website/images/wallpapersden.com_one-piece-world-seeker_1920x1080(luffy hands).png" class="luffyhand" style="position: fixed; max-width: 100%; height: auto;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(175, 175, 175, 0.5);">
+      <a class="navbar-brand" href="../One piece website/index.html"><img src="../One piece website/images/PngItem_5038989.png" height="100px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="../One piece website/index.html" style="font-size: 20px;"><b>Home</b><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../One piece website/Straw Hat Pirates.html" style="font-size: 20px;"><b>Straw Hat Pirates</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../One piece website/Anime.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;"><b>Anime</b></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../One piece website/Anime(East Blue Saga).html">East Blue Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Sky Island Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Water 7 Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Thriller Bark Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Summit War Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Fishman Island Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Dressrosa Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Four Emperors Saga</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="../One piece website/Anime.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;"><b>Manga</b></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../One piece website/Manga(East Blue Saga).html">East Blue Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Sky Island Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Water 7 Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Thriller Bark Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Summit War Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Fishman Island Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Dressrosa Saga</a>
+              <a class="dropdown-item" href="../One piece website/To be continued.html">Four Emperors Saga</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../One piece website/Games.html" style="font-size: 20px;"><b>Games</b></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</body>
+</html>
