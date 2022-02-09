@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>COVID-19 Symptoms</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="../Covid Information Website/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function(){
+    $("li").click(function(){
+      if($(this).is(".Fever"))
+      {$(".name").text("Fever");
+      $(".info").text("A fever is a body temperature that is higher than normal. A normal temperature can vary from person to person, but it is usually around 98.6 °F (37 °C). A fever is not a disease. It is usually a sign that your body is trying to fight an illness or infection. Infections cause most fevers.");}
+      else if ($(this).is(".Drycough"))
+      {$(".name").text("Dry cough");
+      $(".info").text("A cough is a reflex action that clears your airway of irritants and mucus. There are two types of cough: productive and nonproductive. A productive cough produces phlegm or mucus, clearing it from the lungs. A nonproductive cough, also known as a dry cough, doesn’t produce phlegm or mucus.");}
+      else if ($(this).is(".Fatigue"))
+      {$(".name").text("Fatigue");
+      $(".info").text("Fatigue is a term used to describe an overall feeling of tiredness or lack of energy. It isn’t the same as simply feeling drowsy or sleepy. When you’re fatigued, you have no motivation and no energy. Being sleepy may be a symptom of fatigue, but it’s not the same thing.");}
+      else if ($(this).is(".Lossoftasteorsmell"))
+      {$(".name").text("Loss of taste or smell");
+      $(".info").text("Anosmia is the partial or complete loss of the sense of smell. This loss may be temporary or permanent. Common conditions that irritate the nose’s lining, such as allergies or a cold, can lead to temporary anosmia.");}
+      else if ($(this).is(".Nasalcongestion"))
+      {$(".name").text("Nasal congestion");
+      $(".info").text("Nasal congestion or stuffy nose occurs when nasal and adjacent tissues and blood vessels become swollen with excess fluid, causing a stuffy plugged feeling. Nasal congestion may or may not include a nasal discharge or runny nose.");}
+      else if ($(this).is(".Conjunctivitis"))
+      {$(".name").text("Conjunctivitis");
+      $(".info").text("Pink eye (conjunctivitis) is an inflammation or infection of the transparent membrane (conjunctiva) that lines your eyelid and covers the white part of your eyeball. When small blood vessels in the conjunctiva become inflamed, they're more visible. This is what causes the whites of your eyes to appear reddish or pink");}
+      else if ($(this).is(".Sorethroat"))
+      {$(".name").text("Sorethroat");
+      $(".info").text("A sore throat is pain, scratchiness or irritation of the throat that often worsens when you swallow. The most common cause of a sore throat (pharyngitis) is a viral infection, such as a cold or the flu. A sore throat caused by a virus resolves on its own.");}
+      else if ($(this).is(".Headache"))
+      {$(".name").text("Headache");
+      $(".info").text("Headache is pain in any region of the head. Headaches may occur on one or both sides of the head, be isolated to a certain location, radiate across the head from one point, or have a viselike quality. A headache may appear as a sharp pain, a throbbing sensation or a dull ache.");}
+      else if ($(this).is(".Muscleorjointpain"))
+      {$(".name").text("Muscle or joint pain");
+      $(".info").text("Joint pain: Stiffness and inflammation often accompany joint pain. For many people, joint pain gets better with rest and worsens with activity. Muscle pain: Muscle spasms, cramps and injuries can all cause muscle pain. Some infections or tumors may also lead to muscle pain.");}
+      else if ($(this).is(".Differenttypesofskinrash"))
+      {$(".name").text("Different types of skinrash");
+      $(".info").text("A rash is a noticeable change in the texture or color of your skin. Your skin may become scaly, bumpy, itchy, or otherwise irritated.");}
+      else if ($(this).is(".Nauseaorvomiting"))
+      {$(".name").text("Nausea or vomiting");
+      $(".info").text("Nausea is an uneasiness of the stomach that often accompanies the urge to vomit, but doesn't always lead to vomiting. Vomiting is the forcible voluntary or involuntary emptying (throwing up) of stomach contents through the mouth.");}
+      else if ($(this).is(".Diarrhea"))
+      {$(".name").text("Diarrhea");
+      $(".info").text("Diarrhea is loose, watery stools (bowel movements). You have diarrhea if you have loose stools three or more times in one day. Acute diarrhea is diarrhea that lasts a short time. It is a common problem. It usually lasts about one or two days, but it may last longer.");}
+      else if ($(this).is(".Chillsordizziness"))
+      {$(".name").text("Chillsordizziness");
+      $(".info").text("Chills (shivering) may occur at the start of an infection. They are most often associated with a fever. Chills are caused by rapid muscle contraction and relaxation. They are the body's way of producing heat when it feels cold. Chills often predict the coming of a fever or an increase in the body's core temperature. Dizziness is a term used to describe a range of sensations, such as feeling faint, woozy, weak or unsteady. Dizziness that creates the false sense that you or your surroundings are spinning or moving is called vertigo. Dizziness is one of the more common reasons adults visit their doctors.");}
+      else if ($(this).is(".Shortnessofbreath"))
+      {$(".name").text("Shortness of breath");
+      $(".info").text("Shortness of breath — known medically as dyspnea — is often described as an intense tightening in the chest, air hunger, difficulty breathing, breathlessness or a feeling of suffocation.");}
+      else if ($(this).is(".Confusion"))
+      {$(".name").text("Confusion");
+      $(".info").text("Confusion is the inability to think as clearly or quickly as you normally do. You may feel disoriented and have difficulty paying attention, remembering, and making decisions.");}
+      else if ($(this).is(".Persistentpainorpressureinthechest"))
+      {$(".name").text("Persistent pain or pressure in the chest");
+      $(".info").text("Angina is chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood. It may feel like pressure or squeezing in your chest. The discomfort also can occur in your shoulders, arms, neck, jaw, or back.");}
+      else if ($(this).is(".Hightemperature"))
+      {$(".name").text("High temperature");
+      $(".info").text("Normal body temperature is typically 98.6°F (37°C). However, slight fluctuations can occur throughout the day. For example, your body temperature is lowest in the early hours of the morning and highest in the late afternoon. You’re considered to have a fever when your body temperature rises a few degrees above normal. This is typically defined as 100.4°F (38°C) or higher. In some cases, your body temperature can rise greatly above its normal temperature due to things other than fever. This is referred to as hyperthermia. When your body temperature exceeds 106°F (41.1°C) due to a fever, you’re considered to have hyperpyrexia.");}
+      else if ($(this).is(".Irritability"))
+      {$(".name").text("Irritability");
+      $(".info").text("Irritability is a feeling of agitation. Although, some describe “agitation” as a more severe form of irritability. Regardless of the term you use, when you're irritable, you're likely to become frustrated or upset easily. You might experience it in response to stressful situations.");}
+      else if ($(this).is(".Confusion"))
+      {$(".name").text("Confusion");
+      $(".info").text("Confusion is a symptom that makes you feel as if you can't think clearly. You might feel disoriented and have a hard time focusing or making decisions. Confusion is also referred to as disorientation. In its extreme state, it's referred to as delirium.");}
+      else if ($(this).is(".Reducedconsciousness"))
+      {$(".name").text("Reduced consciousness");
+      $(".info").text("Decreased or impaired consciousness or alertness refers to decreased responsiveness to external stimuli.");}
+      else if ($(this).is(".Anxiety"))
+      {$(".name").text("Anxiety");
+      $(".info").text("Anxiety is a feeling of unease, such as worry or fear, that can be mild or severe. Everyone has feelings of anxiety at some point in their life. For example, you may feel worried and anxious about sitting an exam, or having a medical test or job interview.");}
+      else if ($(this).is(".Depression"))
+      {$(".name").text("Depression");
+      $(".info").text("Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Fortunately, it is also treatable. Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home.");}
+      else if ($(this).is(".Sleepdisorders"))
+      {$(".name").text("Sleep disorders");
+      $(".info").text("Sleep disorders are a group of conditions that affect the ability to sleep well on a regular basis.");}
+
+    });
+  });
+</script>
+</head>
+<body style="background-image: linear-gradient(#caf0c1, #00acb1);">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../Covid Information Website/index.html" style="color: #015d67; font-size: 25px;"><b>COVID-19-Info.com</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="../Covid Information Website/index.html"><b>Home</b></a>
+        <a class="nav-item nav-link" href="../Covid Information Website/COVID-19 Information.html">COVID-19 Information</a>
+        <a class="nav-item nav-link" href="../Covid Information Website/COVID-19 News.html">COVID-19 News</a>
+        <a class="nav-item nav-link active" href="../Covid Information Website/COVID-19 Symptoms.html">COVID-19 Symptoms <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="../Covid Information Website/contacts.html">Contacts</a>
+      </div>
+    </div>
+  </nav>
+  <marquee width="100%" direction="left" style="background-color: red; font-size: 20px; position:fixed; color: white;">
+    DOH COVID-19 HOTLINE (02) 894-COVID | (02) 894-26843 FOR PLDT, SMART, SUN, AND TNT SUBSCRIBERS: 1555 EMERGENCY / 911 (FOR EMERGENCY RELATED CONCERNS) DIAL 911 / PUBLIC ASSISTANCE AND COMPLAINTS CENTER (FOR COMPLAINT, INQUIRES AND REQUEST FOR ASSISTANCE) TELEPHONE NUMBERS: (892) 50343 | (892) 51144 | 8888 | (0927) 422 6300 GLOBE | (0961) 384 9272 / DILG EMERGENCY OPERACTIONS CENTER (FOR CONTACT TRACING RELATED CONCERNS) TELEPHONE NUMBERS: 8876-3454 local 8881-8884 | SMART (0961) 756 1201 (0961) 756 1202 | GLOBE (0977) 714 9845 (0956) 186 7450 / RETURNING OVERSEAS FILIPINO WORKERS AND LOCALLY STRANDED INDIVIDUALS OPERATIONS DESK SMART (0961) 772 1661 | GLOBE (0995) 095 1745 / PEACE AND ORDER CONCERNS JOINT TASK FORCE CV SHIELD 0917 658 2495 | 0998 849 0013 | (02) 8725 3176 / SOCIAL AMELIORATION PRGRAM CONCERNS DSWD GLOBE 0916 247 1194 | SMART 0947 482 2864 |  SUN 0932 933 3251 | LANDLINE 16545 / TELIMED MANAGEMENT INC., AND MEDGATE HOTLINE (02) 8424-1724 / GLOBE TELEHEALTH INC. (KONSULTAMD) (02) 7798-8000 / NCMH CRISI HOTLINE 0917-899-USAP (8727) | (02) 899-USAP (8727)
+  </marquee>
+    <div class="jumbotron jumbotron-fluid" style="margin-top: 50px; background-color: #015d67; color: white;">
+        <div class="container">
+            <h1>Symptoms</h1>
+            <p>You may click the listed symptoms for more information</p>
+            <hr  style="border: none; height: 5px; background: white; margin-top: 0%;"><br>
+            <h4 class="name"><b></b></h4>
+            <p class="info"></p>
+              </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <P><b>The most common symptoms of COVID-19 are:</b></P>
+          <ul>
+            <li class="Fever">Fever</li>
+            <li class="Drycough">Dry cough</li>
+            <li class="Fatigue">Fatigue</li>
+          </ul>
+            <p><b>Other symptoms that are less common and may affect some patients include:</b></p>
+            <ul>
+            <li class="Lossoftasteorsmell">Loss of taste or smell</li>
+            <li class="Nasalcongestion">Nasal congestion</li>
+            <li class="Conjunctivitis">Conjunctivitis (also known as red eyes)</li>
+            <li class="Sorethroat">Sore throat</li>
+            <li class="Headache">Headache</li>
+            <li class="Muscleorjointpain">Muscle or joint pain</li>
+            <li class="Differenttypesofskinrash">Different types of skin rash</li>
+            <li class="Nauseaorvomiting">Nausea or vomiting</li>
+            <li class="Diarrhea">Diarrhea</li>
+            <li class="Chillsordizziness">Chills or dizziness</li>
+          </ul>
+            <p><b>Symptoms of severe COVID‐19 disease include:</b></p>
+            <ul> 
+            <li class="Shortnessofbreath">Shortness of breath</li>
+            <li class="Confusion">Confusion</li>
+            <li class="Persistentpainorpressureinthechest">Persistent pain or pressure in the chest</li>
+            <li class="Hightemperature">High temperature (above 38 °C)</li>
+          </ul>
+            <p><b>Other less common symptoms are:</b></p>
+          <ul>
+            <li class="Irritability">Irritability</li>
+            <li class="Confusion">Confusion</li>
+            <li class="Reducedconsciousness">Reduced consciousness (sometimes associated with seizures)</li>
+            <li class="Anxiety">Anxiety</li>
+            <li class="Depression">Depression</li>
+            <li class="Sleepdisorders">Sleep disorders</li>
+          </ul>
+            <p>More severe and rare neurological complications such as strokes, brain inflammation, delirium and nerve damage.
+            People of all ages who experience fever and/or cough associated with difficulty breathing or shortness of breath, chest pain or pressure, or loss of speech or movement should seek medical care immediately. If possible, call your health care provider, hotline or health facility first, so you can be directed to the right clinic.</p>
+            </p>
+          </div>
+          </div>
+        </div>
+        <footer class="bg-light text-center text-lg-start">
+          <div class="text-center p-3" style="background-color: #015d67; color: white;">
+            © 2020 Copyright:
+            <a class="text-light" href="#">COVID-19-Info.com</a>
+          </div>
+        </footer>
+      </body>
+</html>

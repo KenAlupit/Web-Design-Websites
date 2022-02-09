@@ -1,0 +1,53 @@
+.filter{
+    color: white;
+}
+.Allbutton{
+    color:  white;
+    
+}
+.Allbutton:hover {
+    color: #87e4db;
+}
+.LGUbutton{
+    color:  white;
+}
+.LGUbutton:hover {
+    color: #87e4db;
+}
+.Medicalbutton{
+    color:  white;
+}
+.Medicalbutton:hover {
+    color: #87e4db;
+}
+.Peacebutton{
+    color:  white;
+}
+.Peacebutton:hover {
+    color: #87e4db;
+}
+.Foreignbutton{
+    color:  white;
+}
+.Foreignbutton:hover {
+    color: #87e4db;
+}
+.Localbutton{
+    color:  white;
+}
+.Localbutton:hover {
+    color: #87e4db;
+}
+.Vaccinebutton{
+    color:  white;
+}
+.Vaccinebutton:hover {
+    color: #87e4db;
+}
+.Newspic{
+    height: 250px;
+    margin-bottom: 10px;
+}
+.Newstitle{
+    color: black;
+}

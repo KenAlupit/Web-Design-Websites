@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>COVID-19 News</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="../Covid Information Website/style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function(){
+    $('.Foreignbutton').click(function(){
+      $('.Local, .Vaccine').hide();
+      $('.Foreign').show();
+    });
+    $('.Allbutton').click(function(){
+      $('.Foreign, .Local, .Vaccine').show();
+    });
+    $('.Localbutton').click(function(){
+      $('.Foreign, .Vaccine').hide();
+      $('.Local').show();
+    });
+    $('.Vaccinebutton').click(function(){
+      $('.Foreign, .Local').hide();
+      $('.Vaccine').show();
+    });
+  });
+</script>
+</head>
+<body style="background-image: linear-gradient(#caf0c1, #00acb1);">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="../Covid Information Website/index.html" style="color: #015d67; font-size: 25px;"><b>COVID-19-Info.com</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="../Covid Information Website/index.html"><b>Home</b></a>
+      <a class="nav-item nav-link" href="../Covid Information Website/COVID-19 Information.html"><b>COVID-19 Information</b></a>
+      <a class="nav-item nav-link active" href="../Covid Information Website/COVID-19 News.html"><b>COVID-19 News</b> <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="../Covid Information Website/COVID-19 Symptoms.html"><b>COVID-19 Symptoms</b></a>
+      <a class="nav-item nav-link" href="../Covid Information Website/contacts.html"><b>Contacts</b></a>
+    </div>
+  </div>
+</nav>
+<marquee width="100%" direction="left" style="background-color: red; font-size: 20px; position:fixed; color: white;">
+  DOH COVID-19 HOTLINE (02) 894-COVID | (02) 894-26843 FOR PLDT, SMART, SUN, AND TNT SUBSCRIBERS: 1555 EMERGENCY / 911 (FOR EMERGENCY RELATED CONCERNS) DIAL 911 / PUBLIC ASSISTANCE AND COMPLAINTS CENTER (FOR COMPLAINT, INQUIRES AND REQUEST FOR ASSISTANCE) TELEPHONE NUMBERS: (892) 50343 | (892) 51144 | 8888 | (0927) 422 6300 GLOBE | (0961) 384 9272 / DILG EMERGENCY OPERACTIONS CENTER (FOR CONTACT TRACING RELATED CONCERNS) TELEPHONE NUMBERS: 8876-3454 local 8881-8884 | SMART (0961) 756 1201 (0961) 756 1202 | GLOBE (0977) 714 9845 (0956) 186 7450 / RETURNING OVERSEAS FILIPINO WORKERS AND LOCALLY STRANDED INDIVIDUALS OPERATIONS DESK SMART (0961) 772 1661 | GLOBE (0995) 095 1745 / PEACE AND ORDER CONCERNS JOINT TASK FORCE CV SHIELD 0917 658 2495 | 0998 849 0013 | (02) 8725 3176 / SOCIAL AMELIORATION PRGRAM CONCERNS DSWD GLOBE 0916 247 1194 | SMART 0947 482 2864 |  SUN 0932 933 3251 | LANDLINE 16545 / TELIMED MANAGEMENT INC., AND MEDGATE HOTLINE (02) 8424-1724 / GLOBE TELEHEALTH INC. (KONSULTAMD) (02) 7798-8000 / NCMH CRISI HOTLINE 0917-899-USAP (8727) | (02) 899-USAP (8727)
+  </marquee>
+    <div class="jumbotron jumbotron-fluid" style="margin-top: 50px; background-color: #015d67; color: white;">
+        <div class="container">
+            <h1 style="margin-bottom: 0%;">COVID-19 News</h1>
+            <hr  style="border: none; height: 5px; background: white; margin-top: 0%;">
+            <p class="filter"><a class="Allbutton" href="#">All</a> / <a class="Foreignbutton" href="#">Foreign</a> / <a class="Localbutton" href="#">Local</a> / <a class="Vaccinebutton" href="#">Vaccine</a></p>
+              </div>
+        </div>
+      </div>
+      <div class="Local">
+      <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="padding: 50px;">
+            <center><img src="../Covid Information Website/Images/people-in-the-philippines--national-capital-region-and-four-neighbouring-provinces-will-have-to-stay-home-for-another-week-unless-they-are-essential-workers-1617452118307-2.jpg" class="Newspic"></center>
+            <h2><a href="https://www.channelnewsasia.com/news/asia/covid-19-philippines-to-ease-some-tough-restrictions-from-monday-14601118" class="Newstitle">Philippines to ease some tough COVID-19 restrictions from Apr 12</a></h2>
+            <hr class="my-4">
+            <p>MANILA: Strict COVID-19 lockdowns in the Philippines' capital and four adjacent provinces will be eased from Monday (Apr 12), a spokesman ...</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="Vaccine">
+        <div class="container">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container" style="padding: 50px;">
+              <center><img src="../Covid Information Website/Images/vaccine-7-975304-1618632952.jpg" class="Newspic"></center>
+              <h2><a href="https://www.deccanherald.com/science-and-environment/why-the-covid-19-vaccine-safety-numbers-are-still-fuzzy-975304.html" class="Newstitle">Why the Covid-19 vaccine safety numbers are still fuzzy</a></h2>
+              <hr class="my-4">
+              <p>Clots caused by birth control pills are different from the syndrome associated with the Covid-19 vaccines, and some experts caution about ...</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="Local">
+        <div class="container">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container" style="padding: 50px;">
+              <center><img src="../Covid Information Website/Images/20210411-covid19-oxygen-tank-md-9153.jpg" class="Newspic"></center>
+              <h2><a href="https://news.abs-cbn.com/news/04/16/21/ph-records-10726-new-covid-19-cases-active-infections-swell-to-record-high-193000" class="Newstitle">PH records 10,726 new COVID-19 cases; active infections swell to record-high 193,000</a></h2>
+              <hr class="my-4">
+              <p>MANILA (UPDATED) — The Philippines on Friday recorded 10726 more COVID-19 cases, as active infections swelled to a record-high</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="Foreign">
+            <div class="container">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container" style="padding: 50px;">
+                  <center><img src="../Covid Information Website/Images/_medium.jpeg" class="Newspic"></center>
+                  <h2><a href="https://globalnews.ca/news/7764119/covid-ontario-restrictions-police-borders-gatherings/" class="Newstitle">Ontario’s new COVID-19 restrictions include increased police powers, restricting gatherings</a></h2>
+                  <hr class="my-4">
+                  <p>Premier Doug Ford also announced Ontario's state of emergency and stay-at-home order are being extended by two weeks</p>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="Vaccine">
+            <div class="container">
+              <div class="jumbotron jumbotron-fluid">
+                <div class="container" style="padding: 50px;">
+                  <center><img src="../Covid Information Website/Images/Capture.PNG" class="Newspic"></center>
+                  <h2><a href="https://www.cnet.com/health/johnson-johnson-scientists-push-back-on-coronavirus-vaccine-pause/" class="Newstitle">Johnson & Johnson scientists push back on coronavirus vaccine pause</a></h2>
+                  <hr class="my-4">
+                  <p>Of the three coronavirus vaccines authorized in the US, only one has been paused while officials investigate six cases of blood clots, which ...</p>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="Foreign">
+              <div class="container">
+                <div class="jumbotron jumbotron-fluid">
+                  <div class="container" style="padding: 50px;">
+                    <center><img src="../Covid Information Website/Images/_118085310_torontovacc.jpg" class="Newspic"></center>
+                    <h2><a href="https://www.bbc.com/news/world-us-canada-56779428" class="Newstitle">Covid: Canada sounds the alarm as cases overtake US</a></h2>
+                    <hr class="my-4">
+                    <p>Infections in the largest province could increase sixfold without tougher measures, experts warn.</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <footer class="bg-light text-center text-lg-start">
+                <div class="text-center p-3" style="background-color: #015d67; color: white;">
+                  © 2020 Copyright:
+                  <a class="text-light" href="#">COVID-19-Info.com</a>
+                </div>
+              </footer>
+            </body>
+</html>
